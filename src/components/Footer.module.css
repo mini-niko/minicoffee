@@ -1,0 +1,42 @@
+.footer {
+    background-color: var(--vanilla-4);
+    padding: 32px 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer h4 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.footer svg {
+    color: var(--black-3)
+}
+
+.footer p {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    color: var(--black-2);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.contact {
+    text-align: start;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adress {
+    text-align: end
+}

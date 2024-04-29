@@ -1,0 +1,37 @@
+nav {
+    background-color: var(--vanilla-3);
+    padding: 20px 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav > span {
+    color: var(--chocolate-3);
+    text-transform: uppercase;
+    font-family: "Roboto Serif", serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+nav > ul > li, nav > ul > li > a {
+    color: var(--chocolate-2);
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+nav > ul > li:not(:first-child) {
+    list-style: disc;
+}
