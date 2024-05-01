@@ -1,0 +1,12 @@
+.slide {
+    width: 100%;
+}
+
+.slide img {
+    margin-bottom: -5px;
+    width: 100%;
+}
+
+.swiper-button-prev::before {
+    color: red;
+}

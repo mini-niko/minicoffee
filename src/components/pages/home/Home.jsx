@@ -1,10 +1,9 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
-import aboutUsImage from "../../../images/aboutUsImage.png"
-import imagePersonOne from "../../../images/photoOne.png"
-import imagePersonTwo from "../../../images/photoTwo.png"
-import imagePersonThree from "../../../images/photoThree.png"
+import aboutUsImage from "../../../images/aboutUsImage.webp"
+import imagePersonOne from "../../../images/photoOne.webp"
+import imagePersonTwo from "../../../images/photoTwo.webp"
+import imagePersonThree from "../../../images/photoThree.webp"
 
 import ParallaxImage from './ParallaxImage'
 import Slide from './Slide'
@@ -49,6 +48,7 @@ function Home() {
           </div>
         </div>
       </div>
+
       <Slide />
     </>
   )

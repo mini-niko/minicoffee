@@ -40,3 +40,52 @@
 .adress {
     text-align: end
 }
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        padding: 32px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    
+    .footer h4 {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    
+    .footer svg {
+        color: var(--black-3)
+    }
+    
+    .footer p {
+        display: flex;
+        align-items: center;
+        color: var(--black-2);
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .socialMedia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .socialMedia > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .adress {
+        text-align: center
+    }
+}

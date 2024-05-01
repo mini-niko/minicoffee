@@ -1,0 +1,12 @@
+.parallax {
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+.parallax > img {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+}

@@ -20,6 +20,7 @@
 .hero > h2 {
     margin-bottom: 32px;
     color: var(--chocolate-2);
+    text-align: center;
     font-weight: 600;
     font-size: 24px;
 }
@@ -51,6 +52,10 @@
     justify-content: space-evenly;
 }
 
+.aboutUs > img {
+    width: 556px;
+}
+
 .aboutUs > div {
     width: 564px;
 }
@@ -69,13 +74,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 35px;
-}
-
-.parallax > img {
-    margin-bottom: -5px;
-    object-fit: cover;
-    height: 400px;
-    width: 100vw;
 }
 
 .rating {
@@ -129,7 +127,77 @@
     font-size: 18px
 }
 
-.slide > img {
-    margin-bottom: -5px;
-    width: 100vw;
+@media only screen and (max-width: 768px) {
+    .hero {
+        padding: 54px 0;
+    }
+    .hero > h1 {
+        width: 270px;
+        font-size: 40px;
+    }
+    .hero > h2 {
+        width: 270px;
+        font-size: 16px;
+    }
+    .hero > a {
+        padding: 16px 25px;
+        font-size: 24px;
+    }
+
+    .aboutUs {
+        flex-direction: column;
+        justify-content: center;
+        padding: 32px;
+    }
+    .aboutUs > img {
+        margin-bottom: 32px;
+        width: 278px;
+    }
+    .aboutUs > div {
+        width: 278px;
+    }    
+    .aboutUs > div > h3 {
+        margin-bottom: 16px;
+        text-align: center;
+        font-size: 32px;
+    }    
+    .aboutUs > div > p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .parallax > img {
+        margin-bottom: -5px;
+        object-fit: cover;
+        height: 125px;
+        width: 100vw;
+    }
+
+    .rating {
+        padding: 32px;
+        align-items: center;
+        row-gap: 24px;
+    }    
+    .rating > h3 {   
+        font-size: 32px;
+    }    
+    .ratingContent {
+        flex-wrap: wrap;
+        gap: 32px;
+    }    
+    .ratingContent > div {
+        width: 100px;
+        flex-direction: column;
+    }    
+    .ratingContent > div > img {
+        height: 75px;
+        margin-bottom: 16px;
+    }    
+    .ratingContent > div > h4 {
+        color: var(--black-2);
+        margin-bottom: 8px;
+        font-size: 20px;
+    }    
+    .ratingContent > div > p {
+        font-size: 12px
+    }
 }

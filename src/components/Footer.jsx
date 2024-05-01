@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaEnvelope, FaFacebook, FaLinkedin, FaPhone, FaSquareInstagram, FaSquareWhatsapp } from 'react-icons/fa6'
 import style from "./Footer.module.css"
 
@@ -14,8 +13,8 @@ function Footer() {
         <div className={style.socialMedia}>
             <h4>Siga nas nossas Redes Sociais</h4>
             <div>
-              <p><FaFacebook /> MiniCoffee Cafeteria</p>
               <p><FaSquareInstagram /> @minicoffee_ofc</p>
+              <p><FaFacebook /> MiniCoffee Cafeteria</p>
               <p><FaLinkedin /> MiniCoffee Cafeteria</p>
             </div>
         </div>
