@@ -13,7 +13,8 @@ function Home() {
   return (
     <>
       <div className={style.hero}>
-          <h1>O melhor café da sua vida</h1>
+          <h1>O melhor<br/>café da sua vida</h1>
+          <hr/>
           <h2>Quer experimentar? É só clicar no botão abaixo</h2>
           <Link to="/catalog">Catálogo</Link>
       </div>

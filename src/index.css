@@ -24,3 +24,9 @@ a {
 body {
   width: 100%;
 }
+
+hr {
+  margin: 4px 0;
+  width: 35vw;
+  border: solid black 1px;
+}

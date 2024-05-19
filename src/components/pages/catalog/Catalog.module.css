@@ -1,0 +1,71 @@
+.catalog {
+    background-color: var(--vanilla-1);
+    height: auto;
+}
+
+.catalogTitle {
+    padding: 128px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalogTitle h1 {
+    color: var(--chocolate-4);
+    text-transform: uppercase;
+    font-family: "Roboto Serif", serif;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.catalogTitle h2 {
+    text-align: center;
+    color: var(--chocolate-3);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+hr {
+    margin: 4px 0;
+    width: 35vw;
+    border: solid black 1px;
+}
+
+.cards {
+    margin: 0 auto;
+    padding-bottom: 128px;
+    width: min-content;
+    column-count: 3;
+}
+
+.card {
+    margin: 32px;
+    background-color: var(--coffee-2);
+    width: min-content;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start
+}
+
+.card:first-child {
+    margin-top: 0;
+}
+
+.cardText {
+    padding: 32px;
+}
+
+.cardText > h4 {
+    color: var(--chocolate-3);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cardText > p {
+    color: var(--black-2);
+    font-size: 18px;
+    font-weight: 400;
+}

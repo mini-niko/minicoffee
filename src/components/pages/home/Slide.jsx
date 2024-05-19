@@ -1,9 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Autoplay } from "swiper/modules"
 import { Navigation, Pagination } from "swiper/modules"
-import imageOne from "../../../images/Slide/slideOne.webp"
-import imageTwo from "../../../images/Slide/slideTwo.webp"
-import imageThree from "../../../images/Slide/slideThree.webp"
+
+import imgOne from "../../../images/slide/slideOne.webp"
+import imgTwo from "../../../images/slide/slideTwo.webp"
+import imgThree from "../../../images/slide/slideThree.webp"
 
 import "swiper/css"
 import "swiper/css/navigation"
@@ -11,15 +12,21 @@ import "swiper/css/pagination"
 import style from "./Slide.module.css"
 
 function Slide() {
-  const slides = [ imageTwo, imageOne, imageThree ]
+  const slides = [ 
+    imgOne,
+    imgTwo,
+    imgThree
+  ]
+
   const slideTheme = {
     "--swiper-pagination-color": "var(--chocolate-1)",
     "--swiper-navigation-color": "var(--chocolate-1)"
   }
   
   return (
-    <div className={style.slide}>
+    <div >
         <Swiper
+          className={style.slide}
           modules={[ Autoplay, Navigation, Pagination ]} 
           loop 
           navigation={true}
@@ -30,7 +37,9 @@ function Slide() {
           }}>
         {slides.map(slide => (
           <SwiperSlide>
-            <img src={slide} alt="" />
+            <img 
+              src={slide}
+              alt="" />
           </SwiperSlide>
         ))}
       </Swiper>

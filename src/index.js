@@ -7,7 +7,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import Home from "./components/pages/home/Home"
 import Catalog from "./components/pages/catalog/Catalog"
-import Contact from "./components/pages/contact/Contact"
 import ErrorPage from "./components/pages/ErrorPage"
 
 const router = createBrowserRouter([
@@ -23,10 +22,6 @@ const router = createBrowserRouter([
       {
         path: "catalog",
         element: <Catalog />
-      },
-      {
-        path: "contact",
-        element: <Contact />
       }
     ]
   }

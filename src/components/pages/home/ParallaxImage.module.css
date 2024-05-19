@@ -1,12 +1,23 @@
 .parallax {
     overflow: hidden;
     position: relative;
-    height: 400px;
+    height: 500px;
     width: 100%;
+    display: flex;
+    align-items: flex-end;
 }
 
 .parallax > img {
     position: relative;
     z-index: 10;
-    width: 100%;
+    width: 120%;
+}
+
+@media screen and (max-width: 768px) {
+    .parallax {
+        height: 200px;
+    }
+    .parallax > img {
+        width: 150%;
+    }
 }

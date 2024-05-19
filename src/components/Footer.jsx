@@ -8,7 +8,7 @@ function Footer() {
             <h4>Entre em contato</h4>
             <p><FaPhone /> (012) 34567-8901</p>
             <p><FaEnvelope /> example@email.com</p>
-            <p><FaSquareWhatsapp /> example@email.com</p>
+            <p><FaSquareWhatsapp /> (012) 34567-8901</p>
         </div>
         <div className={style.socialMedia}>
             <h4>Siga nas nossas Redes Sociais</h4>

@@ -9,7 +9,7 @@ function ParallaxImage() {
         target: ref,
         offset: ["start end", "end start"]
     })
-    const imgY = useTransform(scrollYProgress, [0, 1], ["0%", "-40%"])
+    const imgY = useTransform(scrollYProgress, [0, 1], ["0%", "50%"])
 
     return (
         <div ref={ref} className={style.parallax}>

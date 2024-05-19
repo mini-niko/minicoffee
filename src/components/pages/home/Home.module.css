@@ -7,14 +7,12 @@
 }
 
 .hero > h1 {
-    width: 550px;
     text-transform: uppercase;
     color: var(--chocolate-4);
     text-align: center;
     font-family: "Roboto Serif", serif;
     font-weight: 800;
     font-size: 60px;
-    margin-bottom: 8px;
 }
 
 .hero > h2 {
