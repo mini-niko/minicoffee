@@ -59,13 +59,50 @@ hr {
 }
 
 .cardText > h4 {
+    margin-bottom: 10px;
     color: var(--chocolate-3);
     font-size: 24px;
     font-weight: 700;
 }
 
 .cardText > p {
+    margin-left: 8px;
     color: var(--black-2);
     font-size: 18px;
     font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+    .catalogTitle {
+        padding: 80px 0;
+    }
+    .catalogTitle h1 {
+        font-size: 40px;
+    }
+    .catalogTitle h2 {
+        text-align: center;
+        color: var(--chocolate-3);
+        font-size: 16px;
+        font-weight: 600;
+    }    
+    .hr {
+        width: 90vw;
+    }
+    .cards {
+        column-count: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    .card {
+        margin: 0;
+    }
+    .cardText > h1 {
+        font-size: 16px;
+    }
+    .cardText > p {
+        font-size: 12px;
+    }
 }
