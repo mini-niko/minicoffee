@@ -1,4 +1,4 @@
-<h1 style="text-align: center">MiniCoffee</h1>
+<h1 align="center">MiniCoffee</h1>
 
 <div align="center">
     <img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow" />
