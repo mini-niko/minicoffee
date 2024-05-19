@@ -10,6 +10,17 @@
 ## ❓Sobre
 Este projeto, feito em React, se trata de um site de uma cafeteria bem simples, na qual explora algumas bibliotecas para React e conceitos de responsividade e UX/UI
 
+## Bibliotecas Utilizadas
+
+- Framer Motion 11.1.7
+- React Dom 18.3.1
+- React Icons 5.1.0
+- React Router Dom 6.23.0
+- React Scripts 5.0.1
+- React 18.3.1
+- Swiper 11.1.1
+- Web Vitals 2.1.4
+
 ## 📋Requisitos
 Para poder utilizar este projeto, você precisa ter instalado:
 
